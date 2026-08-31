@@ -4,7 +4,7 @@ My personal portfolio website showcasing my **education, professional experience
 
 ## Website
 
-🌐 **Live Portfolio:** [View Portfolio](YOUR_GITHUB_PAGES_LINK)
+🌐 **Live Portfolio:** [View Portfolio](https://ayhamaalqanni.github.io/Portfolio/)
 
 ## Built With
 
