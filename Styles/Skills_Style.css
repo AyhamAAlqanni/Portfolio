@@ -915,3 +915,124 @@ SMALL SCREENS
     }
 
 }
+
+
+/*
+===========================================================
+TABLET / MOBILE HEADER
+===========================================================
+*/
+
+@media (
+    max-width: 950px
+) {
+
+    .header_item2,
+    .header_item3 {
+
+        display: none;
+    }
+
+
+    .mobile-menu-button {
+
+        display: block;
+    }
+
+
+    .header_container.menu-open {
+
+        flex-wrap: wrap;
+
+        height: auto;
+
+        padding-top: 20px;
+
+        padding-bottom: 20px;
+    }
+
+
+    /*
+    ========================================
+    NAVIGATION LINKS
+    ========================================
+    */
+
+    .header_container.menu-open
+    .header_item2 {
+
+        display: block;
+
+        order: 3;
+
+        width: 100%;
+
+        margin-top: 20px;
+    }
+
+
+    .header_container.menu-open
+    .header_item2
+    nav
+    ul {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 20px;
+    }
+
+
+    /*
+    ========================================
+    SOCIAL LINKS
+    ========================================
+    */
+
+    .header_container.menu-open
+    .header_item3 {
+
+        display: block;
+
+        order: 4;
+
+        width: 100%;
+
+        margin-top: 22px;
+
+        padding-top: 18px;
+
+        border-top:
+            1px solid
+            #2c2c2c;
+    }
+
+
+    .header_container.menu-open
+    .header_item3
+    nav
+    ul {
+
+        display: flex;
+
+        flex-direction: row;
+
+        justify-content: flex-start;
+
+        align-items: center;
+
+        gap: 16px;
+    }
+
+
+    .header_container.menu-open
+    .header_item3
+    img {
+
+        width: 30px;
+
+        height: 30px;
+    }
+
+}
