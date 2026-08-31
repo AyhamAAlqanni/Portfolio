@@ -26,4 +26,9 @@ Connect with me through **LinkedIn** or **GitHub** using the links available on 
 
 ---
 
-© 2026 Ayham Alqanni
+## Copyright
+
+© 2026 Ayham Alqanni. All rights reserved.
+
+The source code and design of this portfolio may not be copied,
+modified, distributed, or reused without permission.
